@@ -17,9 +17,9 @@ import WorkFourColumn from "../../components/Work-Four-Column";
 import PageHeader from "../../components/Page-header";
 
 const ourworks = () => {
-  React.useEffect(() => {
-    document.querySelector("body").classList.add("homepage");
-  }, []);
+  // React.useEffect(() => {
+  //   document.querySelector("body").classList.add("homepage");
+  // }, []);
   return (
     <LightLayout footerClass={"mt-30"}>
       <PageHeader
